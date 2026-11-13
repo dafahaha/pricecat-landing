@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>竞品猫 PriceCat · 竞品一动，你先知道</title>
+<meta name="description" content="给拼多多/抖店铺货中小卖家的竞品价格与销量异动监控预警。跑在你本机/你的服务器，贴链接，降价销量异动 30 分钟内推送。">
+<meta property="og:title" content="竞品猫 PriceCat · 竞品一动，你先知道">
+<meta property="og:description" content="拼多多/抖店铺货卖家的竞品价格与销量异动监控，本机自部署，30 分钟一轮推送。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dafahaha.github.io/pricecat-landing/">
+<meta property="og:image" content="https://dafahaha.github.io/pricecat-landing/assets/og-image.png">
+<meta property="og:image:alt" content="竞品猫 PriceCat · 竞品一动，你先知道">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- ===== 导航 ===== -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#top" aria-label="竞品猫 PriceCat">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <g fill="none" stroke="#0D9488" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8 L11 22 C11 38 20 54 32 54 C44 54 53 38 53 22 L48 8 L40 18 L24 18 Z"/>
+          <circle cx="24" cy="34" r="4.6"/><circle cx="40" cy="34" r="4.6"/>
+        </g>
+        <g fill="#0D9488"><circle cx="24" cy="34" r="1.7"/><circle cx="40" cy="34" r="1.7"/></g>
+      </svg>
+      竞品猫
+    </a>
+    <nav class="nav-links">
+      <a href="#pain">为什么用</a>
+      <a href="#how">怎么用</a>
+      <a href="#demo">看推送</a>
+      <a href="#price">定价</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="#cta">加微信 ¥19 内测</a>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="top">
+  <div class="container">
+    <span class="eyebrow">拼多多 / 抖店 · 竞品价格销量监控预警</span>
+    <h1>别再手动刷竞品了<br><span class="accent">竞品一动，你先知道</span></h1>
+    <p class="sub">给拼多多、抖店铺货中小卖家：贴个竞品链接，它降价、销量突增、改主图，最快 30 分钟一轮经企业微信 / 钉钉 / 飞书 / Server酱推给你。</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#cta">加微信锁定内测 ¥19</a>
+      <a class="btn btn-ghost" href="#demo">看看推送长啥样</a>
+    </div>
+    <p class="micro">不绑店 · 不登后台 · 只看公开商品页 · 数据默认只存你本机 · 遇风控自动暂停</p>
+    <div class="hero-visual">
+      <div class="phone"><div class="screen">
+        <img src="assets/push-sample.svg" alt="竞品猫降价多通道推送卡片样例">
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 痛点 ===== -->
+<section class="block" id="pain">
+  <div class="container">
+    <div class="block-head">
+      <h2>铺货跟款，最怕的就是慢半拍</h2>
+      <p>这些坑，做拼多多/抖店的你大概率天天在踩：</p>
+    </div>
+    <div class="pain-grid">
+      <div class="pain-card">
+        <div class="ic ic-red">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+        </div>
+        <h3>手动刷，根本刷不过来</h3>
+        <p>一天要打开几十个竞品链接，逐个看价格变没变、销量涨没涨，漏一个就是隐患。</p>
+      </div>
+      <div class="pain-card">
+        <div class="ic ic-orange">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l6 6 4-4 6 6"/><path d="M15 15h4v-4"/></svg>
+        </div>
+        <h3>错过调价窗口，流量就没了</h3>
+        <p>竞品悄悄降价或销量起量，等你自己发现，半天到一天的自然流量已经被人抢走。</p>
+      </div>
+      <div class="pain-card">
+        <div class="ic ic-blue">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/></svg>
+        </div>
+        <h3>现成工具要么贵要么不对口</h3>
+        <p>鱼多多 ¥158、YINKTECH ¥199 起步，要么功能一大堆用不上，要么不盯拼多多/抖店的竞品价格销量。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 解决方案 3 步 ===== -->
+<section class="block" id="how" style="background:#fff">
+  <div class="container">
+    <div class="block-head">
+      <h2>三步搞定，半小时内开始盯</h2>
+      <p>软件跑在你自己电脑 / 你的服务器上，三分钟贴好链接就能用。</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="num">1</div>
+        <h3>贴上竞品链接</h3>
+        <p>把要盯的拼多多/抖店竞品商品链接贴进来，一次贴多个也行。</p>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h3>每 30 分钟自动抓</h3>
+        <p>低频、合规地只看公开商品页，记录价格与已拼件数的每一次变化。</p>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h3>异动实时推给你</h3>
+        <p>降价、销量突增、改主图改标题，最快 30 分钟一轮经企业微信 / 钉钉 / 飞书 / Server酱推给你，点链接直达竞品。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 样例推送 / 产品界面 ===== -->
+<section class="block demo" id="demo">
+  <div class="container">
+    <div class="block-head">
+      <h2>推给你的长这样</h2>
+      <p>旧价→新价、涨跌幅、近 7 日走势、直达链接，一眼看明白。</p>
+    </div>
+    <div class="demo-wrap" style="display:flex;flex-wrap:wrap;gap:24px;justify-content:center;align-items:flex-start">
+      <div>
+        <div class="phone"><div class="screen">
+          <img src="assets/push-sample.svg" alt="多通道推送卡片样例">
+        </div></div>
+        <p style="text-align:center;margin-top:12px;font-size:13px;color:var(--ink-500)">企业微信 / 钉钉 / 飞书 / Server酱告警推送</p>
+      </div>
+      <div>
+        <div class="phone" style="width:280px"><div class="screen">
+          <img src="assets/console-mock.svg" alt="竞品猫移动端控制台样例">
+        </div></div>
+        <p style="text-align:center;margin-top:12px;font-size:13px;color:var(--ink-500)">监控控制台</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 定价 ===== -->
+<section class="block" id="price">
+  <div class="container">
+    <div class="block-head">
+      <h2>轻量定价，只收该收的</h2>
+      <p>新用户免费试用 7 天（最多 5 个竞品链接），不用先付钱；前 10 名内测用户锁定 ¥19/月，之后恢复 ¥39/月。</p>
+    </div>
+    <div class="price-grid">
+      <div class="price-card hot">
+        <span class="beta-badge">前 10 名内测 ¥19/月</span>
+        <div class="plan">基础版</div>
+        <div class="amount">¥39<small> /月</small></div>
+        <div class="links">监控 20 个竞品链接</div>
+        <ul>
+          <li>价格变动 · 企微/钉钉/飞书推送</li>
+          <li>销量（已拼件数）异动提醒</li>
+          <li>降价 / 涨跌幅 / 迷你走势</li>
+          <li>移动控制台 · 近 7 天走势</li>
+        </ul>
+        <a class="btn btn-primary btn-block" href="#cta">锁定 ¥19 内测价</a>
+      </div>
+      <div class="price-card">
+        <div class="plan">专业版</div>
+        <div class="amount">¥99<small> /月</small></div>
+        <div class="links">监控 100 个竞品链接</div>
+        <ul>
+          <li>含基础版全部能力</li>
+          <li>100 个竞品链接同时盯</li>
+          <li>改主图 / 改标题提醒</li>
+          <li>风控自动暂停 · 优先客服</li>
+        </ul>
+        <a class="btn btn-ghost btn-block" href="#cta">选专业版</a>
+      </div>
+    </div>
+    <div class="anchor">
+      对比一下：<b>鱼多多 ¥158/月</b>、<b>YINKTECH ¥199/月起</b>——我们不做大而全的 ERP，
+      只把「盯竞品价格+销量异动、多通道实时推给你」这一件事做到位。
+    </div>
+  </div>
+</section>
+
+<!-- ===== 信任元素 ===== -->
+<section class="block" style="background:#fff">
+  <div class="container">
+    <div class="block-head"><h2>你最担心的，我们先说到</h2></div>
+    <div class="trust">
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.2 7.8-8 9-4.8-1.2-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+        <div><b>不绑店、不登后台</b><span>不要店铺账号密码，不登录你的商家后台，数据默认只存你本机。</span></div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+        <div><b>只访问公开商品页</b><span>只读取谁都能看到的价格/已拼件数，不抓评价、不碰个人信息。</span></div>
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+        <div><b>低频合规 · 不模拟下单</b><span>30 分钟一轮、不模拟登录买家账号下单，遇到验证码自动暂停并通知你。</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="block" id="faq">
+  <div class="container">
+    <div class="block-head"><h2>常见问题</h2></div>
+    <div class="faq">
+      <details class="faq-item">
+        <summary>怎么用？要装什么吗？<span class="arrow">▾</span></summary>
+        <div class="a">竞品猫是跑在<b>你自己电脑或你自己的服务器</b>上的小软件：贴上竞品链接，它每 30 分钟抓一次公开商品页，有异动就推给你。你在控制台里自己配置企业微信 / 钉钉 / 飞书 / Server酱 的 webhook 接收，数据默认只存在你本机。（内测期我们可帮你远程配好，作为附加服务，不改变主形态。）</div>
+      </details>
+      <details class="faq-item">
+        <summary>我的店铺数据安全吗？<span class="arrow">▾</span></summary>
+        <div class="a">安全。软件跑在你本机/你的服务器，不绑店、不登你的商家后台、不要账号密码；只读取竞品公开商品页上谁都看得到的价格与已拼件数，不抓用户评价和任何个人信息。监控数据默认只存你自己的数据库里。</div>
+      </details>
+      <details class="faq-item">
+        <summary>用了会不会导致我店铺被封？<span class="arrow">▾</span></summary>
+        <div class="a">不会碰你的店铺。软件只是低频、合规地访问竞品的公开商品页，不模拟登录买家账号、不模拟下单比价。若平台弹出验证码，它会自动暂停该链接，并推送给你去恢复。</div>
+      </details>
+      <details class="faq-item">
+        <summary>销量是怎么算的？准吗？<span class="arrow">▾</span></summary>
+        <div class="a">拼多多「已拼件数」是累计展示值，不是实时日销。我们用相邻两次抓取的差值估算近 24 小时增量，口径会在控制台和推送里标注，避免体感对不上。</div>
+      </details>
+      <details class="faq-item">
+        <summary>支持哪些平台？<span class="arrow">▾</span></summary>
+        <div class="a">目前支持拼多多商品页和抖店商品页。更多平台按内测用户的反馈优先排期。</div>
+      </details>
+      <details class="faq-item">
+        <summary>怎么退款？会自动续费吗？<span class="arrow">▾</span></summary>
+        <div class="a">新用户先免费试用 7 天（最多 5 个竞品链接）；内测期 7 天内不满意全额退款，月付可随时停订、到期不自动续。内测名额只有前 10 名。</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 最终 CTA ===== -->
+<section id="cta" style="padding:24px 0 40px">
+  <div class="final-cta">
+    <h2>别等竞品先动手</h2>
+    <p>前 10 名内测 ¥19/月，锁定后一直有效。</p>
+    <a class="btn btn-primary" href="wechat://PriceCat_beta">加微信锁定 ¥19 内测</a>
+    <div class="wechat">微信：<b>PriceCat_beta</b>（备注「内测」）</div>
+  </div>
+</section>
+
+<!-- ===== 页脚 ===== -->
+<footer>
+  <div class="fbrand">竞品猫 PriceCat</div>
+  <div>竞品一动，你先知道 · 拼多多 / 抖店竞品监控预警</div>
+  <div style="margin-top:10px;display:flex;gap:16px;flex-wrap:wrap;justify-content:center">
+    <a href="legal/隐私政策.html">隐私政策</a>
+    <a href="legal/用户协议.html">用户协议</a>
+    <a href="legal/虚拟商品说明与退款规则.html">虚拟商品说明与退款规则</a>
+    <a href="#cta">联系客服（微信 PriceCat_beta）</a>
+  </div>
+  <div style="margin-top:6px">© 2026 竞品猫 PriceCat · 本页为产品演示，价格与功能以内测实际为准</div>
+</footer>
+
+<!-- ===== 移动端固定底部 CTA ===== -->
+<div class="fixed-cta">
+  <div class="price">内测价<b>¥19/月</b>前10名</div>
+  <a class="btn btn-primary" href="#cta">加微信锁定内测</a>
+</div>
+
+<script>
+  // 原生 JS：FAQ 折叠（details 已原生支持，这里仅保证平滑与兜底）
+  document.querySelectorAll('.faq-item').forEach(function(d){
+    d.addEventListener('toggle', function(){ /* no-op, 原生 details 即可 */ });
+  });
+</script>
+</body>
+</html>

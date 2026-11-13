@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 700" width="360" height="700" role="img" aria-label="竞品猫移动端控制台样例">
+  <!-- 屏幕背景 -->
+  <rect width="360" height="700" fill="#F6F8FA"/>
+
+  <!-- 顶部栏 -->
+  <rect x="0" y="0" width="360" height="56" fill="#FFFFFF"/>
+  <g transform="translate(14,16) scale(0.34)">
+    <g fill="none" stroke="#0D9488" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M16 8 L11 22 C11 38 20 54 32 54 C44 54 53 38 53 22 L48 8 L40 18 L24 18 Z"/>
+      <circle cx="24" cy="34" r="4.6"/>
+      <circle cx="40" cy="34" r="4.6"/>
+    </g>
+    <g fill="#0D9488"><circle cx="24" cy="34" r="2"/><circle cx="40" cy="34" r="2"/></g>
+  </g>
+  <text x="44" y="35" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="17" font-weight="700" fill="#0F172A">竞品猫</text>
+  <rect x="266" y="14" width="80" height="30" rx="15" fill="#0D9488"/>
+  <text x="306" y="34" text-anchor="middle" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">立即检查</text>
+
+  <!-- 图表卡片 -->
+  <rect x="12" y="68" width="336" height="200" rx="14" fill="#FFFFFF"/>
+  <text x="28" y="94" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="700" fill="#0F172A">价格走势 · 近 7 天</text>
+  <text x="332" y="94" text-anchor="end" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#DC2626">▼ 累计跌 ¥20.00</text>
+  <!-- 网格虚线 -->
+  <g stroke="#E6EAF0" stroke-width="1" stroke-dasharray="3 3">
+    <line x1="28" y1="120" x2="332" y2="120"/>
+    <line x1="28" y1="155" x2="332" y2="155"/>
+    <line x1="28" y1="190" x2="332" y2="190"/>
+    <line x1="28" y1="225" x2="332" y2="225"/>
+  </g>
+  <!-- 销量柱（灰） -->
+  <g fill="#CBD5E1">
+    <rect x="40" y="205" width="10" height="20" rx="2"/>
+    <rect x="91" y="200" width="10" height="25" rx="2"/>
+    <rect x="142" y="208" width="10" height="17" rx="2"/>
+    <rect x="193" y="195" width="10" height="30" rx="2"/>
+    <rect x="244" y="188" width="10" height="37" rx="2"/>
+    <rect x="295" y="180" width="10" height="45" rx="2"/>
+  </g>
+  <!-- 价格面积 + 线（teal 下降趋势） -->
+  <path d="M28 150 L79 146 L129 152 L180 140 L231 132 L281 120 L332 112 L332 225 L28 225 Z" fill="#14B8A6" fill-opacity="0.10"/>
+  <polyline points="28,150 79,146 129,152 180,140 231,132 281,120 332,112" fill="none" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="332" cy="112" r="3.5" fill="#0D9488"/>
+  <text x="28" y="252" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="10" fill="#94A3B8">← 价格(teal)　销量(灰) →</text>
+
+  <!-- 监控列表标题 -->
+  <text x="12" y="292" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="600" fill="#475569">监控中 · 3 个竞品</text>
+
+  <!-- 竞品卡片 A -->
+  <rect x="12" y="302" width="336" height="86" rx="14" fill="#FFFFFF"/>
+  <rect x="24" y="314" width="62" height="62" rx="10" fill="#F0FDFA"/>
+  <rect x="40" y="330" width="30" height="30" rx="6" fill="#99F6E4"/>
+  <text x="256" y="326" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="10" font-weight="600" fill="#E02E24">拼多多</text>
+  <circle cx="332" cy="322" r="4" fill="#16A34A"/>
+  <text x="96" y="332" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="600" fill="#0F172A">冰丝防晒衣女薄款外套</text>
+  <text x="96" y="356" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="18" font-weight="700" fill="#DC2626">¥19.90</text>
+  <text x="96" y="376" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#64748B">已拼 2.3万件 · 5分钟前更新</text>
+
+  <!-- 竞品卡片 B（风控橙色条） -->
+  <rect x="12" y="398" width="336" height="86" rx="14" fill="#FFFFFF"/>
+  <rect x="12" y="398" width="336" height="4" rx="2" fill="#EA580C"/>
+  <rect x="24" y="410" width="62" height="62" rx="10" fill="#F1F5F9"/>
+  <rect x="40" y="426" width="30" height="30" rx="6" fill="#CBD5E1"/>
+  <text x="256" y="422" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="10" font-weight="600" fill="#161823">抖店</text>
+  <circle cx="332" cy="418" r="4" fill="#EA580C"/>
+  <text x="96" y="426" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="600" fill="#0F172A">同款冰丝防晒开衫</text>
+  <text x="96" y="446" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="18" font-weight="700" fill="#0F172A">¥25.00</text>
+  <text x="96" y="466" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#EA580C">已因验证码自动暂停 · 点击恢复</text>
+
+  <!-- 底部固定 Tab -->
+  <rect x="0" y="644" width="360" height="56" fill="#FFFFFF"/>
+  <line x1="0" y1="644" x2="360" y2="644" stroke="#E6EAF0" stroke-width="1"/>
+  <g font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="11">
+    <text x="60" y="678" text-anchor="middle" fill="#0D9488" font-weight="700">监控</text>
+    <text x="180" y="678" text-anchor="middle" fill="#64748B">告警</text>
+    <text x="300" y="678" text-anchor="middle" fill="#64748B">设置</text>
+  </g>
+  <!-- 告警角标 -->
+  <circle cx="200" cy="660" r="9" fill="#DC2626"/>
+  <text x="200" y="664" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#FFFFFF">3</text>
+</svg>
